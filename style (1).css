@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    line-height: 1.7;
+    font-family:sans-serif;
+}
+.about{
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+    padding-bottom: 2rem;
+}
+.heading{
+    padding-bottom: 4rem;
+}
+.headingstyle{
+    padding-left: 4.5rem;
+}
+.stylebutton1{
+    text-decoration: none;
+    padding:2rem 3rem;
+    color:black;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .3rem;
+    font-size: 1.5rem;
+    background: white;
+    
+}
+.headingsecondary{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.links{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 3.5rem;
+}
+a{
+    text-decoration: none;
+}
+.vc{
+    display: grid;
+    grid-template-columns: 30% 70%;
+   padding-bottom: 4rem;
+}
+.vcimg{
+  display: flex;
+   
+    
+}
+.vcimgstyle{
+   height: 15rem;
+    width:17rem;
+    padding-left: 5rem;
+    
+}
+
+.message{
+   outline: 3px solid black;
+    padding: 1.3rem;
+    margin-right: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0.8);
+    transform:skewX(-10deg)
+}
+.messagestyle{
+    font-size:1.2rem;
+    
+}
+.mam{
+    display:grid;
+    grid-template-columns: 70% 30%;
+    padding-bottom: 4rem;
+}
+.mam-message{
+    text-align: center;
+     outline: 3px solid black;
+    padding: 1.3rem;
+    margin-left: 2rem;
+     box-shadow: 0 1rem 2rem rgba(0,0,0.8);
+    transform:skewX(-10deg)
+    
+}
+.mam-message-style{
+    font-size: 1.2rem;
+    
+}
+.mam-image-style{
+    height: 15rem;
+    width:17rem;
+    padding-left: 5.2rem;
+
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.galleryimage{
+    height:10rem;
+    width:10rem;
+    border:1px solid black;
+    padding-bottom: 4rem;
+}
+.footer{
+    margin-top: 5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
